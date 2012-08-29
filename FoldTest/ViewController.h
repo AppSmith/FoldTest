@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)flip:(id)sender;
+
 @end

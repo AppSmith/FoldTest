@@ -21,6 +21,7 @@
 		4C6BF9EA15D95B9100984081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BF9C815D95B9000984081 /* Foundation.framework */; };
 		4C6BF9F215D95B9100984081 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6BF9F015D95B9100984081 /* InfoPlist.strings */; };
 		4C6BF9F515D95B9100984081 /* FoldTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6BF9F415D95B9100984081 /* FoldTestTests.m */; };
+		4C6BF9FF15D95F6400984081 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BF9FE15D95F6400984081 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		4C6BF9C615D95B9000984081 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C6BF9C815D95B9000984081 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C6BF9CA15D95B9000984081 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4C6BF9CE15D95B9000984081 /* FoldTest-Info.plist */ = {isa = PBXFileReference; path = "FoldTest-Info.plist"; sourceTree = "<group>"; };
+		4C6BF9CE15D95B9000984081 /* FoldTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoldTest-Info.plist"; sourceTree = "<group>"; };
 		4C6BF9D015D95B9000984081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C6BF9D215D95B9000984081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C6BF9D415D95B9000984081 /* FoldTest-Prefix.pch */ = {isa = PBXFileReference; path = "FoldTest-Prefix.pch"; sourceTree = "<group>"; };
-		4C6BF9D515D95B9000984081 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C6BF9D415D95B9000984081 /* FoldTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoldTest-Prefix.pch"; sourceTree = "<group>"; };
+		4C6BF9D515D95B9000984081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C6BF9D615D95B9000984081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C6BF9D915D95B9000984081 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		4C6BF9DC15D95B9000984081 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		4C6BF9DE15D95B9000984081 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4C6BF9DE15D95B9000984081 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C6BF9DF15D95B9000984081 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4C6BF9E615D95B9100984081 /* FoldTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoldTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6BF9E715D95B9100984081 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4C6BF9EF15D95B9100984081 /* FoldTestTests-Info.plist */ = {isa = PBXFileReference; path = "FoldTestTests-Info.plist"; sourceTree = "<group>"; };
+		4C6BF9EF15D95B9100984081 /* FoldTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoldTestTests-Info.plist"; sourceTree = "<group>"; };
 		4C6BF9F115D95B9100984081 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4C6BF9F315D95B9100984081 /* FoldTestTests.h */ = {isa = PBXFileReference; path = FoldTestTests.h; sourceTree = "<group>"; };
+		4C6BF9F315D95B9100984081 /* FoldTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldTestTests.h; sourceTree = "<group>"; };
 		4C6BF9F415D95B9100984081 /* FoldTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoldTestTests.m; sourceTree = "<group>"; };
+		4C6BF9FE15D95F6400984081 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6BF9FF15D95F6400984081 /* QuartzCore.framework in Frameworks */,
 				4C6BF9C715D95B9000984081 /* UIKit.framework in Frameworks */,
 				4C6BF9C915D95B9000984081 /* Foundation.framework in Frameworks */,
 				4C6BF9CB15D95B9000984081 /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +86,7 @@
 		4C6BF9B715D95B8F00984081 = {
 			isa = PBXGroup;
 			children = (
+				4C6BF9FE15D95F6400984081 /* QuartzCore.framework */,
 				4C6BF9CC15D95B9000984081 /* FoldTest */,
 				4C6BF9ED15D95B9100984081 /* FoldTestTests */,
 				4C6BF9C515D95B9000984081 /* Frameworks */,
